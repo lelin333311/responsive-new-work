@@ -165,6 +165,10 @@
         padding: 100px 0;
     }
 
+    .footer-wraper {
+        padding: 100px 0 200px 0;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -533,6 +537,10 @@
 
     .find-image-main::before {
         background: linear-gradient(to right, rgb(249 232 214) 0%, rgb(249 232 214) 20%, rgb(249 232 214 / 100%) 40%, rgb(249 232 214 / 0%) 60%, rgb(249 232 214 / 0%) 80%, rgb(249 232 214 / 0%) 100%);
+    }
+
+    .footer-wraper {
+        padding: 90px 0 132px 0;
     }
 }
 
