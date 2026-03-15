@@ -2753,6 +2753,13 @@ p.expert-para-inner {
     flex-direction: column;
     gap: 24px;
     justify-content: space-between;
+    transition: all 0.40s ease;
+    cursor: pointer;
+}
+
+.resume-wraper:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 
