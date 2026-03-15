@@ -2755,6 +2755,8 @@ p.expert-para-inner {
     justify-content: space-between;
 }
 
+
+
 .resume-wraper.resume {
     margin-bottom: 24px;
 }
@@ -2900,6 +2902,7 @@ section.job-winning-hero-section {
 
 img.blog-main {
     width: 100%;
+    max-width: 1200px;
 }
 
 .resume-wraper-main {
@@ -3015,7 +3018,7 @@ p.introduction-para-second {
 }
 
 
-.designer-wraper.designer-main {
+.designer-main {
     border: none;
     border-radius: 12px;
     padding: 0;
@@ -3026,6 +3029,16 @@ p.introduction-para-second {
     gap: 20px;
     transition: ease-in-out 0.3s;
     margin-top: 56px;
+}
+
+.resune-blog {
+    transition: all 0.40s ease;
+    cursor: pointer;
+}
+
+.resune-blog:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 /* Related Blogs End */

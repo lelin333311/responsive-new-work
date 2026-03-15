@@ -157,6 +157,14 @@
         padding: 0 0 90px 0;
     }
 
+    section.job-winning-hero-section {
+        padding: 0;
+    }
+
+    .related-blogs-section {
+        padding: 100px 0;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -181,6 +189,7 @@
         position: fixed;
         top: 1px;
         left: 0;
+        max-width: 991px;
         width: 100%;
         background: var(--white);
         padding: 20px;
@@ -452,6 +461,12 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .designer-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
     .container-about-hero {
         margin-top: 85px;
     }
@@ -522,6 +537,10 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .header-two-inner {
+        max-width: 767px;
+    }
 
     .hero-wraper {
         display: flex;
@@ -886,9 +905,23 @@
     .designed-footer-main {
         flex-direction: column;
     }
+
+    .header-two-inner {
+        max-width: 560px;
+    }
+
+    .designer-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
 }
 
 @media screen and (max-width: 479px) {
+
+    .header-two-inner {
+        max-width: 479px;
+    }
 
     h2.hero-desit {
         font-size: 20px;
