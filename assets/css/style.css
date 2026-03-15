@@ -772,6 +772,31 @@ p.posted-jobs-para {
     white-space: nowrap;
 }
 
+.onsite-one-product {
+    max-width: 122px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--secondery);
+    border-radius: 40px;
+    padding: 4px 12px;
+    background-color: #f2e6d8;
+    transition: ease-in-out 0.3s;
+}
+
+.designer-wraper:hover .onsite-one-product {
+    background-color: #0e3c48;
+    color: var(--primary);
+}
+
 .onsite-two {
     max-width: 71px;
     width: 100%;
@@ -1224,6 +1249,10 @@ p.star-svg {
     max-width: fit-content;
 }
 
+.faq-grid.faq-all {
+    margin-bottom: 140px;
+}
+
 .asked-questions-main {
     margin-top: 24px;
 }
@@ -1312,6 +1341,10 @@ button.accordian-main {
     box-sizing: unset;
     max-width: 611px;
     width: -webkit-fill-available;
+}
+
+.accordion button#accordion-button.accordion-button {
+    margin: 0;
 }
 
 .accordion button:hover,
@@ -2760,12 +2793,6 @@ p.expert-para-inner {
 .resume-wraper:hover {
     transform: translateY(-12px) scale(1.02);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-}
-
-
-
-.resume-wraper.resume {
-    margin-bottom: 24px;
 }
 
 .blog-image-frame {

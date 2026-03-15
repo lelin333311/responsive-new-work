@@ -169,6 +169,23 @@
         padding: 100px 0 200px 0;
     }
 
+    section.resources {
+        padding: 90px 0 100px 0;
+    }
+
+    .designer-wraper.wraper-designer {
+        flex-direction: column;
+    }
+
+    a.button.button-wraper {
+        text-align: center;
+    }
+
+    p.deadline-para {
+        text-align: center;
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -406,6 +423,10 @@
         gap: 20px;
     }
 
+    .money-bag-main.bag-main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .career-tips {
         display: flex;
         flex-direction: column;
@@ -477,6 +498,7 @@
 
     .job-winning-all {
         grid-template-columns: repeat(2, 4fr);
+        justify-items: center;
     }
 
     h1.get-touch,
@@ -487,6 +509,11 @@
 
     .designer-wraper.wraper-designer.w-d {
         display: grid;
+    }
+
+    .designer-wraper.wraper-designer.w-d.wraper-designer-wd {
+        display: flex;
+        flex-direction: row;
     }
 
     p.deadline-para {
@@ -541,6 +568,16 @@
 
     .footer-wraper {
         padding: 90px 0 132px 0;
+    }
+
+    section.resources {
+        padding: 60px 0 80px 0;
+    }
+
+    .developer-catagories-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
 }
 
@@ -794,7 +831,7 @@
     }
 
     .job-winning-all {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
 
@@ -920,6 +957,11 @@
 
     .designer-main {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .job-winning-all {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
