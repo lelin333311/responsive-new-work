@@ -1239,6 +1239,9 @@ p.star-svg {
 .faq-wraper {
     max-width: 488px;
     width: 100%;
+    position: sticky;
+    top: 105px;
+    align-self: flex-start;
 }
 
 .faq-grid {
