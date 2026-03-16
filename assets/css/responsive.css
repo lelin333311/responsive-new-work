@@ -125,6 +125,10 @@
         gap: 20px;
     }
 
+    .money-bag-main.bag-main-innre {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .money-bag-wraper {
         justify-content: flex-start;
     }
@@ -175,6 +179,10 @@
 
     .designer-wraper.wraper-designer {
         flex-direction: column;
+    }
+
+    .designer-wraper.wraper-designer.designer-wraper-third-page {
+        flex-direction: row;
     }
 
     a.button.button-wraper {
@@ -275,7 +283,7 @@
 
     .nav-two {
         position: absolute;
-        top: 80%;
+        top: 101%;
         left: 0;
         width: 100%;
         background: #ffffffba;
@@ -543,7 +551,7 @@
     }
 
     .accordion button .accordion-title {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .footer-wraper {
@@ -581,15 +589,20 @@
     }
 
     section.perfect-job-section {
-        padding: 90px 0 100px 0;
+        padding: 90px 0 70px 0;
     }
 
     .developer-catagories-main {
         gap: 40px;
     }
 
+    .faq-grid {
+        gap: 10px;
+    }
+
     .faq-grid.faq-all {
         margin-bottom: 100px;
+        justify-items: center;
     }
 }
 
@@ -893,6 +906,10 @@
         padding-top: 80px;
     }
 
+    section.jobs-posted-section.details-start-section {
+        margin-top: 180px;
+    }
+
     .platform-section {
         padding: 80px 0;
     }
@@ -948,6 +965,20 @@
     .find-image-main::before {
         background: linear-gradient(to right, rgb(249 232 214) 0%, rgb(249 232 214) 20%, rgb(249 232 214 / 100%) 40%, rgb(249 232 214 / 0%) 60%, rgb(249 232 214 / 0%) 80%, rgb(249 232 214 / 0%) 100%);
     }
+
+    .faq-grid.faq-all {
+        margin-bottom: 60px;
+        justify-items: center;
+    }
+
+    .designer-wraper.wraper-designer.w-d.wraper-designer-wd {
+        flex-direction: column;
+    }
+
+    a.button.button-wraper {
+        margin: auto;
+        width: fit-content;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -977,6 +1008,14 @@
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
+
+    .money-bag-main.bag-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .money-bag-wraper {
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -991,6 +1030,11 @@
 
     p.hero-desit-wraper-para {
         font-size: 12px;
+    }
+
+    .onsite-wraper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 

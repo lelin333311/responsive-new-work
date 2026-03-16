@@ -1461,6 +1461,10 @@ button.accordian-main {
     width: 100%;
 }
 
+.accordion-item.last-item {
+    margin-top: 16px;
+}
+
 /* https://codepen.io/kathykato/pen/MoZJom */
 
 /* accordian end */
@@ -2395,6 +2399,7 @@ a.button.button-wraper:hover {
 .designer-wraper.wraper-designer.designer-wraper-third-page {
     background-color: var(--title);
     padding: 48px;
+
 }
 
 .onsite.siteon {
@@ -2418,6 +2423,10 @@ h1.heading-inner {
     color: var(--white);
 }
 
+.money-bag-wraper.bag-wraper.bag-desit-details {
+    justify-content: flex-start;
+}
+
 .money-bag-wraper.bag-wraper svg path {
     fill: var(--white);
 }
@@ -2434,6 +2443,7 @@ section.job-overview-section {
 .overview-wraper {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .job-overview-left {

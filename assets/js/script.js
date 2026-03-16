@@ -442,33 +442,6 @@ gsap.from(".empower-career-main .transparent-para", {
 
 // animation wraper end
 
-// button
-// Button entry animation
-gsap.from(".button", {
-    duration: 1,       // animation duration 1 sec
-    opacity: 0,        // fade in
-    y: 50,             // niche theke uthbe
-    ease: "power3.out"
-});
-
-// Hover animation
-const button = document.querySelector(".button");
-
-button.addEventListener("mouseenter", () => {
-    gsap.to(button, {
-        scale: 1.1,       // slightly boro hobe
-        backgroundColor: "#ff7f50", // color change
-        duration: 0.3
-    });
-});
-
-button.addEventListener("mouseleave", () => {
-    gsap.to(button, {
-        scale: 1,         // original size
-        backgroundColor: "#4CAF50", // original color
-        duration: 0.3
-    });
-});
 
 // Right side theke entry animation
 gsap.from("img.traffic-channel", {
